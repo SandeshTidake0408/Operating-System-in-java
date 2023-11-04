@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "temp",
+            "request": "launch",
+            "mainClass": "temp",
+            "projectName": "Java Programming_72705cdf"
+        },
+        {
+            "type": "java",
+            "name": "RoundRobinScheduling",
+            "request": "launch",
+            "mainClass": "RoundRobinScheduling",
+            "projectName": "Java Programming_72705cdf"
+        },
+        {
+            "type": "java",
+            "name": "ShortestJobFirst",
+            "request": "launch",
+            "mainClass": "ShortestJobFirst",
+            "projectName": "Java Programming_72705cdf"
+        },
+        {
+            "type": "java",
+            "name": "FirstComeFirstServe",
+            "request": "launch",
+            "mainClass": "FirstComeFirstServe",
+            "projectName": "Java Programming_72705cdf"
+        },
+        {
+            "type": "java",
+            "name": "OptimalPageReplacement",
+            "request": "launch",
+            "mainClass": "OptimalPageReplacement",
+            "projectName": "Java Programming_72705cdf"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "PageRaplaceOptimal",
+            "request": "launch",
+            "mainClass": "PageRaplaceOptimal",
+            "projectName": "Java Programming_72705cdf"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Java Programming_72705cdf"
+        }
+    ]
+}
