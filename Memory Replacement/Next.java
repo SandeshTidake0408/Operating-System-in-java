@@ -1,6 +1,5 @@
 
 import java.util.*;
-
 public class Next {
 
     public static void NextFit(int[] mem, int[] proce, int m, int n) {

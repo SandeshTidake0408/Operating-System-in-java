@@ -11,9 +11,6 @@ public class BestFit {
                     if (bestIndex == -1 || mem[bestIndex] > mem[j]) {
                         bestIndex = j;
                     }
-                    // else if (mem[bestIndex]>=mem[j]){
-                    // bestIndex=j;
-                    // }
                 }
             }
 
@@ -35,7 +32,7 @@ public class BestFit {
         int[] processsize = { 212, 417, 112, 426 };
         int m = blocksize.length;
         int n = processsize.length;
-        
+
         performBestFit(blocksize, processsize, m, n);
 
     }

@@ -1,11 +1,9 @@
-
 import java.util.*;
 
 public class FirstFit {
     public static void firstFit(int[] mem, int[] proce, int m, int n) {
         int[] allocated = new int[n];
         Arrays.fill(allocated, -1);
-
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (mem[j] >= proce[i]) {
@@ -15,7 +13,7 @@ public class FirstFit {
                 }
             }
         }
-
+        
         System.out.println("after process");
         for (int k = 0; k < n; k++) {
             if (allocated[k] != -1) {

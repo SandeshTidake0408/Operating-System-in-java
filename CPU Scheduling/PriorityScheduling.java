@@ -33,13 +33,9 @@ public class PriorityScheduling {
         int total = 0;
         int st = 0;
 
-        while (true) {
+        while (total < n) {
             int max_priority = Integer.MAX_VALUE;
             int high_p_process = -1;
-
-            if (total == n) {
-                break;
-            }
 
             for (int i = 0; i < n; i++) { // this loop is for to calculate the process which arrives first with
                                           /// shortest brust time

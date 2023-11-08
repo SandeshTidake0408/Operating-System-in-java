@@ -8,7 +8,7 @@ public class FirstComeFirstServe {
         int wt[] = new int[n];
 
         // complition time
-        int temp = at[0];
+        int temp = 0;
         for (int i = 0; i < n; i++) {
             temp += bt[i];
             ct[i] = temp;
@@ -46,3 +46,7 @@ public class FirstComeFirstServe {
         sc.close();
     }
 }
+
+
+// at[]={0,1,5,6}
+//bt[]={2,2,3,4}

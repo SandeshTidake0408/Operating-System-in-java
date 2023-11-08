@@ -46,8 +46,8 @@ public class LeastRecentlyUsed {
 
     public static void main(String[] args) {
         // int pgs[] = { 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1 };
-        int pgs[] = { 1, 2, 3, 4, 1, 2, 5, 1, 6, 2, 3, 7, 8, 7, 8, 9, 7, 8, 9, 5 };
-        // int pgs[] = {7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2};
+        
+        int pgs[] = {7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2};
         int frameSize = 3;
         recentlyUsed(pgs, frameSize);
     }

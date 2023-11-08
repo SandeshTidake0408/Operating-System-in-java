@@ -13,9 +13,7 @@ class process {
 }
 
 class helper {
-
     Scanner sc = new Scanner(System.in);
-
     void getInputs(Queue<process> q, process[] proce, int n) {
         for (int i = 0; i < n; i++) {
             System.out.println("Enter the process name");
@@ -66,7 +64,7 @@ public class RoundRobinScheduling {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter how many process you want");
+        System.out.println("Enter No. of process : ");
         int n = sc.nextInt();
 
         process[] proce = new process[n];
@@ -74,7 +72,6 @@ public class RoundRobinScheduling {
         Queue<process> q = new LinkedList<>();
 
         h1.getInputs(q, proce, n);
-
         h1.execute(q, proce, 2);
         sc.close();
 

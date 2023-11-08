@@ -21,7 +21,7 @@ public class WrostFit {
                 
             }
         }
-
+        
         System.out.println("\nProcess No.\tProcess Size\tBlock no.");
         for (int i = 0; i < n; i++) {
             System.out.print("   " + (i + 1) + "\t\t" + proce[i] + "\t\t");
